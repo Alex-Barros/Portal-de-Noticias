@@ -1,32 +1,32 @@
- /* utility-first (classes utilitarias)*/
- .grid { 
-    display: grid; /* grid é um container */
- }
+/* utility-first (classes utilitarias)*/
+.grid { 
+  display: grid; /* grid é um container */
+}
 
- .grid-flow-col {
-    grid-auto-flow: column; /* coloca os elementos em coluna */
- }
+.grid-flow-col {
+  grid-auto-flow: column; /* coloca os elementos em coluna */
+}
 
- .grid-cols-2 {
-    grid-template-columns: 1fr 1fr;
- }
+.grid-cols-2 {
+  grid-template-columns: 1fr 1fr;
+}
 
- .gap-16 {
-    gap: 16px; /* espaçamento entre os elementos */
- }
+.gap-16 {
+  gap: 16px; /* espaçamento entre os elementos */
+}
 
- .text-2xl {  /* tamanho do texto 2x large */
-   font: var(--h1);
- }
+.text-2xl {  /* tamanho do texto 2x large */
+  font: var(--h1);
+}
 
- .text-xl {  /* tamanho do texto */
-   font: var(--h2);
- }
+.text-xl {  /* tamanho do texto */
+  font: var(--h2);
+}
 
- .text-lg {  /* tamanho do texto large */
-   font: var(--h3);
- }
+.text-lg {  /* tamanho do texto large */
+  font: var(--h3);
+}
 
- .text-sm {  /* tamanho do texto */
-   font: var(--text-sm);
- }
+.text-sm {  /* tamanho do texto */
+  font: var(--text-sm);
+}
