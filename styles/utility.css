@@ -15,6 +15,10 @@
   gap: 16px; /* espaçamento entre os elementos */
 }
 
+.gap-32 {
+  gap: 32px; /* espaçamento entre os elementos */
+}
+
 .text-2xl {  /* tamanho do texto 2x large */
   font: var(--h1);
 }
