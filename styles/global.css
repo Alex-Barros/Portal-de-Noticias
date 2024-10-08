@@ -38,18 +38,19 @@ a {
     font: inherit;  /* herda a fonte do pai, dependendo de onde estiverem */
  }
 
+ img {
+    max-width: 100%; /* imagem responsiva, respeita o tamanho da caixa */
+ }
+
  .container {
     max-width: 1280px; /* largura máxima do container */
     padding-inline: 32px; /* padding horizontal */
     margin-inline: auto; /* centraliza o container */
  }
-
- /* utility-first (classes utilitarias)*/
- .grid { 
-    display: grid; /* grid é um container */
+ 
+ main {
+    
  }
 
- .grid-flow-col {
-    grid-auto-flow: column; /* coloca os elementos em coluna */
- }
+
 

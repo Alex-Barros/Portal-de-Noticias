@@ -1,0 +1,16 @@
+ /* utility-first (classes utilitarias)*/
+ .grid { 
+    display: grid; /* grid é um container */
+ }
+
+ .grid-flow-col {
+    grid-auto-flow: column; /* coloca os elementos em coluna */
+ }
+
+ .grid-cols-2 {
+    grid-template-columns: 1fr 1fr;
+ }
+
+ .gap-16 {
+    gap: 16px; /* espaçamento entre os elementos */
+ }
