@@ -11,9 +11,29 @@
     --stroke-color: #1E293B;
     --text-color-primary: #F1F5F9;
     --text-color-secondary: #CBD5E1;
+
+    --font-family: "Archivo", sans-serif;
+    --h1: extra-bold 24px/135% var(--font-family); /* 24px, 135% line-height */
+    --h2: extra-bold 16px/140% var(--font-family); /* extra-bold=800 */
+    --h3: extra-bold 14px/140% var(--font-family);
+    --text-span: semi-bold 14px/145% var(--font-family); /* semi-bold=600 */
+    --text: regular 16px/140% var(--font-family); /* regular=400 */
+    --text-sm: 400 14px/160% var(--font-family); /* 400=regular */
 }
 
 body {
     color: var(--text-color-primary);
     background-color: var(--bg-color);
 }
+
+a {
+    text-decoration: none; /* remove o sublinhado */
+    color: inherit; /* herda a cor do pai (no body)*/
+}
+ a:hover {
+    color: var(--brand-color-light);
+ }
+
+ h1, h2, h3 {
+    font: inherit;  /* herda a fonte do pai, dependendo de onde estiverem */
+ }
