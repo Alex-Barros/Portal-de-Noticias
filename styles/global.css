@@ -37,3 +37,19 @@ a {
  h1, h2, h3 {
     font: inherit;  /* herda a fonte do pai, dependendo de onde estiverem */
  }
+
+ .container {
+    max-width: 1280px; /* largura máxima do container */
+    padding-inline: 32px; /* padding horizontal */
+    margin-inline: auto; /* centraliza o container */
+ }
+
+ /* utility-first (classes utilitarias)*/
+ .grid { 
+    display: grid; /* grid é um container */
+ }
+
+ .grid-flow-col {
+    grid-auto-flow: column; /* coloca os elementos em coluna */
+ }
+
