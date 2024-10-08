@@ -47,9 +47,9 @@ a {
     padding-inline: 32px; /* padding horizontal */
     margin-inline: auto; /* centraliza o container */
  }
- 
+
  main {
-    
+    margin-top: 40px;
  }
 
 

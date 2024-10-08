@@ -2,6 +2,23 @@
     img {
         height: 100%;
         object-fit: cover;
+    }
+    
+    .card {
         border-radius: 4px;
+        overflow: hidden; /* para a imagem nao ultrapassar o card, esconder o transbordamento */
+        position: relative;
+
+        &::before { /* & = .card pq ja esta dentro*/
+            content: ""; /* para o pseudo-elemento aparecer, criar um conteudo */
+            position: absolute;
+            inset: 9;
+            top: 50%; /* 50% do topo, da metade pra baixo */
+            background: linear-gradient( /* gradiente linear */
+                180deg, /* de cima pra baixo */
+                transparent 0%, /* 0% transparente */
+                #020617 100% /* 100% cor */
+            );
+        }
     }
 }
